@@ -6,15 +6,36 @@
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "bad-words": "^3.0.4",
+    "classnames": "^2.3.1",
+    "enroute": "^1.0.1",
+    "firebase": "^8.6.2",
+    "font-awesome": "^4.7.0",
+    "history": "^4.7.2",
+    "http-proxy-agent": "^4.0.1",
+    "http-proxy-middleware": "^0.19.1",
+    "humanize-duration": "^3.26.0",
+    "invariant": "^2.2.4",
+    "isomorphic-fetch": "^3.0.0",
+    "js-cookie": "^2.2.1",
+    "loaders.css": "^0.1.2",
+    "lodash": "^4.17.21",
+    "mapbox": "*",
+    "parse-link-header": "^1.0.1",
+    "raf": "^3.4.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-router": "^5.2.0",
     "react-scripts": "4.0.3",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.32.13",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --watchAll",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,5 +55,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "proxy": "http://localhost:5000/",
+  "devDependencies": {
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.1",
+    "enzyme": "^3.11.0",
+    "redux-mock-store": "^1.5.4"
   }
 }
